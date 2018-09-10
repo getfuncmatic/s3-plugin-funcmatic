@@ -1,0 +1,27 @@
+{
+  "name": "@funcmatic/s3-plugin-funcmatic",
+  "version": "2.0.0",
+  "description": "AWS S3 Client Plugin for the Funcmatic Lambda JS Framework based on simple-s3",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Daniel Jhin Yoo <danieljyoo@gmail.com> (https://github.com/danieljyoo)",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/getfuncmatic/s3-plugin-funcmatic.git"
+  },
+  "dependencies": {
+    "@funcmatic/simple-s3": "0.0.2",
+    "dotenv": "^6.0.0"
+  },
+  "devDependencies": {
+    "@funcmatic/funcmatic": "^2.1.0",
+    "aws-sdk": "^2.311.0",
+    "jest": "^21.2.1"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
